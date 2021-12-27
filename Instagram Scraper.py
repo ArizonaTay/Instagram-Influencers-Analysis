@@ -48,7 +48,7 @@ username.send_keys("username")
 password.send_keys("password")
 login = driver.find_element_by_css_selector("button[type='submit']").click()
 
-#save your login info?
+#click the not now button
 time.sleep(10)
 notnow = driver.find_element_by_xpath("//button[contains(text(), 'Not Now')]").click()
 
